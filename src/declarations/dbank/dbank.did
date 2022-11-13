@@ -1,0 +1,7 @@
+service : {
+  addFund: (float64) -> () oneway;
+  checkBalance: () -> (float64) query;
+  computeInterest: () -> () oneway;
+  getId: () -> (nat) query;
+  withdrawFund: (float64) -> () oneway;
+}
